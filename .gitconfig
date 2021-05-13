@@ -1,0 +1,16 @@
+[core]
+	editor = code -w
+	autocrlf = input
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[color]
+	ui = true
+[init]
+	defaultBranch = main
+[alias]
+	st = status
+	br = branch
+	ch = checkout

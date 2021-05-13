@@ -1,0 +1,32 @@
+{
+    "workbench.colorTheme": "FireFly Pro Midnight",
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length=119",
+        "--target-version=py36"
+    ],
+    "python.languageServer": "Pylance",
+    "python.linting.mypyEnabled": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.condaPath": "~/miniconda3/Scripts/conda.exe",
+    "python.diagnostics.sourceMapsEnabled": true,
+    "editor.fontFamily": "Consolas, 'Courier New', monospace, 'Segoe UI emoji'",
+    "editor.accessibilitySupport": "off",
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "editor.fontSize": 15,
+    "workbench.colorCustomizations": {
+        "[FireFly Pro Midnight]": {
+            "activityBar.foreground": "#c3eeff",
+            "sideBar.foreground": "#c3eeff",
+            "gitDecoration.ignoredResourceForeground": "#c9b4f8"
+        }
+    },
+    "workbench.iconTheme": "bearded-icons",
+    "workbench.editor.untitled.hint": "hidden",
+    "editor.formatOnSave": true
+}
