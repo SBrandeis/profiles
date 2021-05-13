@@ -12,5 +12,6 @@
 	defaultBranch = main
 [alias]
 	st = status
-	br = branch
+	br = branch -vv
 	ch = checkout
+	graph = log --oneline --graph --no-merges

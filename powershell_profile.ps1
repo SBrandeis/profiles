@@ -40,7 +40,7 @@ function Get-OriginDiff {
         }
         $ahead = git rev-list --count origin/$branch..$branch
 
-        if (($behind -ne "0") -and ($ahead -ne "0")) {
+        if (($behind -ne "0") -or ($ahead -ne "0")) {
             $origin_diff = "(+${ahead}/-${behind}) "
             $diff_color = "darkyellow"
         }
